@@ -1,0 +1,44 @@
+/* Faz a tabela ocupar 100% da largura */
+table.tabela {
+    width: 100%;
+    border-collapse: collapse; /* junta as bordas */
+}
+
+/* Todas as células da tabela */
+table.tabela td {
+    border: 1px solid black;
+    vertical-align: top;
+}
+
+.content {
+    padding: 20px;
+    text-align: left;
+}
+
+
+/* Remove bordas internas do conteúdo (opcional) */
+.content h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.imagem {
+    text-align: center;
+}
+
+.sidebar, .anchors {
+    width: 200px;
+    padding: 10px;
+}
+
+.coluna01, .coluna03 {
+    width: 200px;
+}
+
+.coluna02 {
+    width: calc(100% - 400px); /* 100% menos as duas laterais */
+}
+
+.footer {
+    text-align: center;
+}
